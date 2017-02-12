@@ -1,2 +1,3 @@
-# vanilla-javascript-boilerplate
-Express, Heroku, Nodemon, ESLint
+# Vailla JavaScript App Boilerplate
+
+Includes Express, Heroku, Nodemon, ESLint
