@@ -2,4 +2,4 @@
 
 Includes Express, Heroku, Nodemon, ESLint
 
-Live version: https://piotrberebecki.github.io/REPO-NAME-HERE
+Live version: https://REPO-NAME-HERE.herokuapp.com/
