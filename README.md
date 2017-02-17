@@ -10,6 +10,7 @@ Live version: https://REPO.herokuapp.com
 * Node
 * Express
 * Heroku
+* Browsersync
 * Vanilla JavaScript
 * ES6
 * Flexbox
@@ -24,5 +25,5 @@ npm install
 #1. Start the development server with Browsersync reloading
 npm run dev
 
-#2. Open this url in your browser: http://localhost:3000/public/index.html
+#2. Open this url in your browser: http://localhost:3000
 ```
