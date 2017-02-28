@@ -6,8 +6,9 @@
         "jquery": true
     },
     "globals": {
-        "it": true,
-        "describe": true
+        "describe": true,
+        "test": true,
+        "expect": true
     },
     "extends": "eslint:recommended",
     "installedESLint": true,

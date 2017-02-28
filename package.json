@@ -5,9 +5,10 @@
   "main": "",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "browser-sync start --server --files 'public/**/*.css, public/**/*.js, *.html' --no-notify",
+    "dev": "browser-sync start --server 'public' --files 'public/**/*.css, public/**/*.js, public/**/*.html' --no-notify",
     "dev-js": "nodemon src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage",
+    "test:watch": "npm run test -- --watch"
   },
   "engine": {
     "node": "6.3.1"
@@ -27,6 +28,13 @@
   },
   "devDependencies": {
     "browser-sync": "^2.18.8",
-    "nodemon": "^1.11.0"
+    "jest-cli": "^19.0.2",
+    "nodemon": "^1.11.0",
+    "npm-run-all": "^4.0.2"
+  },
+  "jest": {
+     "collectCoverage": true,
+     "coverageFormats": ["json", "html"],
+     "notify": true
   }
 }
