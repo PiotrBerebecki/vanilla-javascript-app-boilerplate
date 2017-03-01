@@ -34,7 +34,6 @@
   },
   "jest": {
      "collectCoverage": true,
-     "coverageFormats": ["json", "html"],
      "notify": true
   }
 }
