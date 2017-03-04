@@ -1,10 +1,10 @@
-# Vanilla JavaScript App Boilerplate
+# Vanilla JavaScript App
 
-App demonstrating ...
+Vanilla JavaScript App.
 
 Live version: https://REPO.herokuapp.com
 
-<img src="./src/graphics/screencast.gif" width="275px" height="auto">
+<!-- <img src="./src/graphics/screencast.gif" width="275px" height="auto"> -->
 
 ## Tech stack
 * Node
@@ -18,8 +18,8 @@ Live version: https://REPO.herokuapp.com
 ## Getting started
 
 ```sh
-git clone https://github.com/PiotrBerebecki/REPO.git
-cd REPO
+git clone `REPO URL HERE`
+cd 'REPO NAME HERE'
 npm install
 
 #1. Start the development server with Browsersync reloading
